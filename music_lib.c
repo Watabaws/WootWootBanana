@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ll.h>
+#include <time.h>
+#include "ll.h"
 
 struct song_node * library[26];
+srand( time(NULL) );
 
 char get_song_index(song_node * new_song){
 	char * author = new_song -> artist;
