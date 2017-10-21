@@ -28,6 +28,10 @@ int main(){
 	test_list = ordered_add(test_list, "the haunting", "set it off");
 	printf("Should return an ordered list of songs:\n");
 
+	printf("See my favorite song is actually Still Waiting.. I want that at the front. Let's make it happen!\n");
+	test_list = insert_front(test_list, "still waiting", "sum 41");
+
+
 	print_list(test_list); //////////////////
 
 	newline();
