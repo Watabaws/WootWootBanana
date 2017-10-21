@@ -10,7 +10,7 @@ void newline(){
 int main(){
 	srand(time(NULL));
 	printf("////////TESTING THE INDIVIDUAL NODES\\\\\\\\\\ \n\n");
-	printf("Creating a new nodes + testing print\n");
+	printf("Creating new nodes + testing print\n");
 
 	struct song_node * test_list = insert_front(NULL, "thanks for nothing", "sum 41");
 	printf("Created node for song 'thanks for nothing' by sum 41\n");
